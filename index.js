@@ -6,9 +6,15 @@ button.addEventListener('click', function () {
     ++times
     space_lamp.classList.toggle('on')
     if (times > 20) {
-        space_lamp.classList.remove("off")
-        space_lamp.classList.remove("on")
-        space_lamp.classList.add("broken")
+        space_lamp.classList.remove('off')
+        space_lamp.classList.remove('on')
+        space_lamp.classList.add('broken')
         button.innerText = 'F#ck...'
     }
 })
+
+space_lamp.addEventListener('click', function () {
+    if (space_lamp.classList.contains('on'))
+    alert('Não toca na lampada!! Tá quente :c')
+})
+
