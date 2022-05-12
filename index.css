@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #303e73;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#space_lamp {
+    width: 400px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.off {
+    background-image: url("./assets/light-off.svg");
+}
+
+.on {
+    background-image: url("./assets/light-on.svg");
+}
+
+.broken {
+    background-image: url("./assets/explosion.svg");
+}
+
+p {
+    margin-top: 150px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
